@@ -32,7 +32,8 @@ import (
 
 // Default Machine types for various types of instance group machine
 const (
-	defaultNodeMachineTypeGCE     = "n1-standard-2"
+	//defaultNodeMachineTypeGCE     = "n1-standard-2"	//SD: 17-Jan-2020: Changed to optimize cost
+	defaultNodeMachineTypeGCE     = "g1-small"
 	defaultNodeMachineTypeVSphere = "vsphere_node"
 	defaultNodeMachineTypeDO      = "s-2vcpu-4gb"
 	defaultNodeMachineTypeALI     = "ecs.n2.medium"
@@ -41,7 +42,8 @@ const (
 	defaultBastionMachineTypeVSphere = "vsphere_bastion"
 	defaultBastionMachineTypeALI     = "ecs.n2.small"
 
-	defaultMasterMachineTypeGCE     = "n1-standard-1"
+	//defaultMasterMachineTypeGCE     = "n1-standard-1"	//SD: 17-Jan-2020: Changed to optimize cost
+	defaultMasterMachineTypeGCE     = "g1-small"
 	defaultMasterMachineTypeVSphere = "vsphere_master"
 	defaultMasterMachineTypeDO      = "s-2vcpu-2gb"
 	defaultMasterMachineTypeALI     = "ecs.n2.medium"
