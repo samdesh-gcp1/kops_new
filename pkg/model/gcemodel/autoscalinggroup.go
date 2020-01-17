@@ -82,8 +82,8 @@ func (b *AutoscalingGroupModelBuilder) Build(c *fi.ModelBuilderContext) error {
 				BootDiskImage:  s(ig.Spec.Image),
 
 				// TODO: Support preemptible nodes?
-				Preemptible: fi.Bool(false),
-
+				//Preemptible: fi.Bool(false),		//SD: 17-Jan-2020: Changed to optimize cost :)
+				Preemptible: fi.Bool(true),
 				Scopes: []string{
 					"compute-rw",
 					"monitoring",
