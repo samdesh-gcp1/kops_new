@@ -343,7 +343,7 @@ github.com/mattn/go-isatty
 github.com/matttproud/golang_protobuf_extensions/pbutil
 # github.com/miekg/coredns v0.0.0-20161111164017-20e25559d5ea
 github.com/miekg/coredns/middleware/etcd/msg
-# github.com/miekg/dns v1.0.14
+# github.com/miekg/dns v1.1.25
 github.com/miekg/dns
 # github.com/mitchellh/go-wordwrap v1.0.0
 github.com/mitchellh/go-wordwrap
